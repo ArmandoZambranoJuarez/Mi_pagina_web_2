@@ -1,0 +1,10 @@
+/* Bulma */
+@import "bulma.css";
+
+/* Fontawesome */
+@import "fontawesome/fontawesome.css";
+
+
+.center {
+  margin: 0 auto;
+}

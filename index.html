@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CETis108</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js"></script>
+    <link rel="icon" href="image/Chido.ico">
+  </head>
+  <body>
+    <header class="section has-background-gray">
+        <img src="image/cetis.jpeg"  >
+    </header>
+    <header>
+
+      <nav class="navbar is-blue">
+        <div class="container">
+          <div class="navbar-brand">
+              <a href="index.html" class="navbar-item">
+                 CETis108
+              </a>
+              <a class="navbar-burger" role="button" aria-label="main" aria-expanded="false" data-target="navMenu">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+              </a>
+            </div>
+          <div class="navbar-menu" id="navMenu">
+              <div class="navbar-start">
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                          <span>
+                              <i class="fas fa-school"></i> Plantel
+                          </span>
+                      </a> 
+
+                      <div class="navbar-dropdown is-boxed">
+                          <a  href="Historia.html" class="navbar-item">
+                              <i class="fas fa-book-medical"></i> Historia
+                          </a>
+                          <a href="vision.html" class="navbar-item">
+                            <i class="fas fa-low-vision"></i> Misión y Visión
+                          </a>
+                        <a   href="mensajedirector.html" class="navbar-item">
+                              <i class="fas fa-envelope"></i> Mensaje del Director
+                          </a>
+                          <a  href="organigrama.html"     class="navbar-item">
+                            <i class="fas fa-sitemap"></i> Organigrama
+                          </a>
+                          <a class="navbar-item">
+                              <i class="fas fa-map-signs"></i>  Directorio
+                          </a>
+                          <a href="https://www.google.com/maps/place/Centro+De+Estudios+Tecnologicos+Industrial+Y+De+Servicios+No.+108/@25.5908915,-108.476204,15z/data=!4m5!3m4!1s0x0:0x64bbe9df878df754!8m2!3d25.5908915!4d-108.476204" class="navbar-item">
+                              <i class="fas fa-search-location"></i> Ubicacion del Plantel
+                          </a>
+                          <a class="navbar-item">
+                              <i class="fab fa-ubuntu"></i> Sistemas Institucionales
+                          </a>
+                        </div>
+                  </div>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link">
+                          <i class="fas fa-book-reader"></i> Oferta educativa
+                      </a>
+                      <div class="navbar-dropdown is-boxed">
+                          <a href="https://www.cetis108.edu.mx/sitio/docs/programas/programacion.pdf"   class="navbar-item">
+                              <i class="fas fa-laptop-code"></i>   Programación
+                          </a>
+                          <a href="https://www.cetis108.edu.mx/sitio/docs/programas/soporte.pdf"   class="navbar-item">
+                              <i class="fas fa-laptop-medical"></i> Soporte y mantenimiento de equipo de cómputo
+                          </a>
+                          <a href="https://www.cetis108.edu.mx/sitio/docs/programas/electronica.pdf" class="navbar-item">
+                            <i class="fas fa-charging-station"></i> Electronica
+                          </a>
+                          <a href="https://www.cetis108.edu.mx/sitio/docs/programas/contabilidad.pdf" class="navbar-item">
+                            <i class="fas fa-calculator"></i> Contabilidad
+                          </a>
+                          <a  href="https://www.cetis108.edu.mx/sitio/docs/programas/mantenimiento.pdf" class="navbar-item">
+                            <i class="fas fa-car-side"></i>  Mantenimiento Automotriz
+                           </a>
+                          <a class="navbar-item">
+                            <i class="fas fa-smile-beam"></i> Vinculacion
+                          </a>
+                      </div>
+                      
+                  </div>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                          <i class="fas fa-child"></i>Alumnos
+                      </a>
+                      <div class="navbar-dropdown is-boxed">
+                          <a  href="becas.html"   class="navbar-item">
+                            <i class="fas fa-money-bill-wave-alt"></i> Becas
+                          </a>
+                          <a class="navbar-item">
+                            <i class="fas fa-star"></i> Alumnos Destacados
+                          </a>
+                          <a href="http://virtual.cetis108.edu.mx/" class="navbar-item">
+                              <i class="fas fa-users"></i> Aula Virtual
+                          </a>
+                          <a class="navbar-item">
+                              <i class="fas fa-scroll"></i> Convocatorias
+                          </a>
+                          <a  href="normatividad.html" class="navbar-item">
+                               <i class="fas fa-briefcase"></i> Normatividad
+                          </a>
+                          <a class="navbar-item">
+                            <i class="fas fa-user-graduate"></i>  Programas Institucionales
+                           </a>
+                           <a href="tramites.html"  class="navbar-item">
+                               <i class="fas fa-paste"></i> Tramites
+                              </a>
+                              <a class="navbar-item">
+                                <i class="fas fa-clock"></i> Horarios
+                              </a>
+                            </div>
+                          </div>
+                          
+                          
+                          <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                              <i class="fas fa-chalkboard-teacher"></i></i>Docentes
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                              <a class="navbar-item">
+                                 <i class="fas fa-user-graduate"></i>  Programas de Estudio
+                              </a>
+                              <a class="navbar-item">
+                                  <i class="fas fa-calendar-alt"></i> Calendario
+                              </a>
+                              <a href="normatividad2.html"  class="navbar-item">
+                                <i class="fas fa-briefcase"></i> Normatividad
+                              </a>
+                              <a class="navbar-item">
+                                <i class="fas fa-hands-helping"></i> Apoyo
+                              </a>
+                              <a class="navbar-item">
+                                <i class="fas fa-scroll"></i> Convocatoria
+                              </a>
+                              <a class="navbar-item">
+                                <i class="fas fa-align-left"></i> Formato ECAS
+                              </a>
+                              <a class="navbar-item">
+                                <i class="fas fa-user-graduate"></i>  Programas Institucinales
+                              </a>
+                              
+                            </div>
+                          </div>
+                          <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                              <i class="fas fa-people-carry"></i> Transparencia
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                              <a  href="https://www.cetis108.edu.mx/sitio/docs/transparencia/convocatoria_jtyrc_2016.pdf" class="navbar-item">
+                                  <i class="fas fa-snowboarding"></i> Informe de actividades y rendiciones
+                               de cuentas 2016
+                          </a>
+                          <a href="Avisodsimplicado.html" class="navbar-item">
+                            <i class="fas fa-exclamation-triangle"></i> Aviso de privacidad simplificado
+                          </a>
+                          
+                           <a href="avisointegrado.html" class="navbar-item">
+                            <i class="fas fa-exclamation-triangle"></i> Aviso de privacidad integral
+                           </a>
+                           
+                          </div>
+              </div>
+              <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                       <i class="fas fa-briefcase"></i> Empleados
+                  </a>
+                  <div class="navbar-dropdown is-boxed">
+                      <a href="https://portalautoservicios-sems.sep.gob.mx/login.jsp;jsessionid=a925e8388b03bbaf4c3717ba8f2f" class="navbar-item">
+                        <i class="fas fa-medkit"></i> Portal de Autoservicio
+                      </a>
+                      <a href="https://accounts.google.com/signin/v2/sl/pwd?service=CPanel&passive=1209600&cpbps=1&continue=https%3A%2F%2Fadmin.google.com%2Fcetis108.edu.mx%2FDashboard&followup=https%3A%2F%2Fadmin.google.com%2Fcetis108.edu.mx%2FDashboard&skipvpage=true&authuser=2&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="navbar-item">
+                           <i class="fas fa-mail-bulk"></i>  Correo Institucional
+                      </a> 
+                  </div>
+                  
+          </div>
+          
+                  </div>
+                  
+                  <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link is-arrowless">
+                        <span>
+                          <i class="fas fa-info-circle"></i>
+                          Acerca de
+                        </span>
+                      </a>
+                      <div class="navbar-dropdown is-boxed is-right">
+                        <a  href="http://guasave.gob.mx/s/historia-de-guasave/" class="navbar-item">
+                          <span>
+                            <strong>Guasave</strong>
+                            <br>
+                                  Breve historia de Guasave, Sinaloa
+                                </span>
+                              </a>
+                              <hr class="navbar-divider">
+                              <a  href="http://uemstis.sep.gob.mx/index.php/quienes-somos/82-historia-dgeti" class="navbar-item">
+                              <span>
+                                <strong>DGETI</strong>
+                                  <br>
+                                  Historia de DGETI
+                                </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </nav >
+        </header>
+  
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        toggleMenu()
+    })
+    </script>
+          
+          <main class="has-background-gray ">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-12">
+            <div class="card">
+              <div class="card-image">
+                <img src="image/volante_2018.jpg" alt="nota principal" />
+              </div>
+              <div class="card-content">
+                <p class="title">
+                  <a href="#" class="has-text-dark">
+                    Bienvenidos al CETis 108 y disfrute navegar por nuestro sitio web.
+                  </a>
+                </p>
+                <p class="subtitle">
+                  27 de abril 2019
+                </p>
+                <div class="content">
+                    En el CETis 108 ya abrimos preinscripciones, no lo pienses más, únete a la familia del CETis 108 y dale un plus a tu bachillerato con una carrera Técnica y Es una muy buena institucion donde podras aprender muy bien con nuestros maetros  capacitados. ¡SOMOS TU MEJOR OPCIÓN!.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+           
+            <div class="card">
+              <div class="card-image">
+                <img src="image/becas-benito-juarez-amlo.png" alt="nota secundaria" />
+              </div>
+              <div class="card-content">
+                <p class="title is-4">
+                    Becas benito Juarez
+                </p>
+                <p class="subtitle is-6">
+                  27 de abril de 2019
+                </p>
+                <div class="content">
+                  Entra para que sepas como estan nuestras becas. Vas a ver podras obtener una muy buena beca en nuestra institucion, es muy facil y rapido te ayudara a que puedas terminar con mayor facilidad la preparatoria, aparte de que tengas un ingreso, aparte de contar becas de alimentacion.
+
+                </div>
+                <a href="http://becas-mexico.mx/becas/beca-benito-juarez/?gclid=CjwKCAjw7_rlBRBaEiwAc23rhhRHarsqTwyqWcbhxWrhWKdq8cpTa0VBvGmuanYyeFml8vurZ0VL_RoC8yMQAvD_BwE">Leer más...</a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+         
+            <div class="card">
+              <div class="card-image">
+                <img src="image/D2oRXPTX0AAi3MI.jpg" alt="nota secundaria" />
+              </div>
+              <div class="card-content">
+                <p class="title is-4">
+                    Mision y Vision
+                </p>
+                <p class="subtitle is-6">
+                  27 de abril de 2019
+                </p>
+                <div class="content">
+                   Entra y observa nuestras metas y visiones para nuestros alumnos e integrantes, para mejorar la institucion, dia con dia impementamos algo nuevo y te encantara poder estudiar en esta institucion con maestros cera.
+                </div>
+                <a href="vision.html">Leer más...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section has-background-gray" style="margin: 50px 0;">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-14-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/news-construyet.jpg" alt="banner 1" />
+              </figure>
+            </div>
+            <div class="column is-14-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/escolta.jpg" alt="banner 1" />
+              </figure>
+            </div>
+            <div class="column is-14-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/cetis2.png" alt="banner 1" />
+              </figure>
+            </div>
+          </div>
+            <div class="column is-14-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/1.jpg" alt="banner 1" />
+              </figure>
+            </div>
+          <div class="columns">
+            <div class="column is-14-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/cetis1.jpg" alt="banner 1" />
+              </figure>
+            </div>
+            <div class="column is-10-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/diadlain.jpg" alt="banner 1" />
+              </figure>
+            </div>
+            <div class="column is-10-mobile is-offset-1-mobile">
+              <figure class="image box">
+                <img src="image/imagen070219.jpg" alt="banner 1" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <a href="#">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="image/12.jpg" alt="Programa 1" />
+                  </div>
+                  <div class="card-content">
+                    <p class="subtitle is-6">
+                        Septiembre 18, 2017
+
+                      </p>
+                    <p class="title is-5">
+                        Semana del Adolescente
+                    </p>
+                    <div class="content">
+                      En esta semana nos acercamos mucho mas a los alumnos para escuchar lo que piensas y que les sucede, si estan pasando por momentos dificiles para poder apoyarlos, darles atencion para que su rendimiento sea el adecuado y bajar el nivel de reprobacion, asi tambien platicar con los padres de familia, ya que ellos son los principales en observar si a su hijo esta pasando por algo malo, si lo estan molestando o esta sufriendo de algun abuso.
+                                        </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a href="#">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="image/diadlain.jpg" alt="Programa 1" />
+                  </div>
+                  <div class="card-content">
+                    <p class="subtitle is-6">
+                        Septiembre 15, 2017
+                      </p>
+                    <p class="title is-5">
+                        Día de la Independencia
+                    </p>
+                    
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+                <a href="https://www.wermexico.com/">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="image/wer.png" alt="Programa 1" />
+                    </div>
+                    <div class="card-content">
+                      <p class="subtitle is-6">
+                          14 de Octubre de 2017
+                        </p>
+                      <p class="title is-5">
+                          Inauguración de concurso nacional de robótica WER 2017 en León, Guanajuato.
+                      </p>
+                      <div class="content">
+                          El día de hoy se llevó a cabo la inauguración del WER 2017 en su etapa nacional, donde participan los estudiantes Manuel Alejandro Valenzuela López, Carmen Alicia Rodríguez Hernández y Natalia Escarlet Félix Rodríguez de la especialidad de Electrónica del CETis 108 de Guasave, Sinaloa.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <div class="column">
+              <a href="https://www.enac.es/">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="image/enac.jpg" alt="Programa 1" />
+                  </div>
+                  <div class="card-content">
+                      <p class="subtitle is-6">
+                          Septiembre 8, 2017
+                        </p>
+                    <p class="title is-5">
+                        ENAC 2017
+                    </p>
+                    
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+     
+      <footer class="footer">
+        <div class="container">
+          <div class="columns">
+          <div class="column">
+            <p class="title is-6">
+              Redes sociales
+            </p>
+            <ul>
+              <li><a href="https://www.facebook.com/CETis108/">Facebook</a></li>
+              <li><a href="https://www.instagram.com/armando_yair/?hl=es-la">Instagram</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <p class="title is-6">
+              Sitios oficiales
+            </p>
+            <ul>
+              <li><a href="https://www.gob.mx/sep">SEP</a></li>
+              <li><a href="http://www.sems.gob.mx/">SEMS</a></li>
+              <li><a href="http://uemstis.sep.gob.mx/">UEMSTIS</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <p class="title is-6">
+              Enlaces de interés
+            </p>
+            <ul>
+              <li><a href="http://cosdac.sems.gob.mx/web/">COSDAC</a></li>
+              <li><a href="http://www.anuies.mx/">ANUIES</a></li>
+              <li><a href="http://www.sems.gob.mx/en_mx/sems/programacion_de_formacion_docente">PROFORDEMS</a></li>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <div class="level is-size-7">
+          <div class="level-left">
+            <div class="level-item">
+              Zona Industrial S/N, Carretera a Los Angeles del Triunfo, CP. 81101, Guasave, Sinaloa, México - Tel. (687) 87 234 07 
+              Armando Yair Zambrano Juarez
+            </div>
+          </div>
+          <div class="level-right">
+            <div class="level-item">
+              <span>
+                <a href="#">Politica de privacidad</a>
+                |
+                <a href="index.html">Inicio</a>
+                |
+                <a href="https://www.gob.mx/">gob.mx</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
